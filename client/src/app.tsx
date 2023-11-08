@@ -31,18 +31,21 @@ export default function App() {
     }
 
     return (
-        <Excalidraw initialData={{
-            appState: {
-                openSidebar: {
-                    name: 'history'
+        <div>
+            
+            <Excalidraw initialData={{
+                appState: {
+                    openSidebar: {
+                        name: 'history'
+                    }
                 }
-            }
-        }}
-            ref={(api: ExcalidrawImperativeAPI) => setExcalidrawAPI(api)}
-        >
-            <Sidebar/>
+            }}
+                ref={(api: ExcalidrawImperativeAPI) => setExcalidrawAPI(api)}
+            >
+                <Sidebar />
 
-            <Footer />
-        </Excalidraw>
+                <Footer />
+            </Excalidraw>
+        </div>
     );
 }
