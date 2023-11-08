@@ -13,6 +13,7 @@
     "vite": "^4.5.0"
   },
   "workspaces": [
-    "./client"
+    "./client",
+    "./pro"
   ]
 }
