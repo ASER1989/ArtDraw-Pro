@@ -5,7 +5,6 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig(({command, mode}) => {
-    console.log(command, mode)
     return {
         root: './',
         base: './',

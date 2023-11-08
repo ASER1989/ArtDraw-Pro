@@ -27,7 +27,7 @@ export default function App() {
     }
 
     const handleShowSidebar = () => {
-        excalidrawAPI?.updateScene(test)
+        // excalidrawAPI?.updateScene(test)
     }
 
     return (
